@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.text-secondary {
+  color: #0070f3;
+}
+
+.navbar-icon svg {
+  stroke: #0070f3;
+  fill: #0070f3;
+}
