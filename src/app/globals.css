@@ -34,3 +34,15 @@ body {
   stroke: #0070f3;
   fill: #0070f3;
 }
+
+#cover-background {
+  background: linear-gradient(
+    90.21deg,
+    rgba(33, 33, 48, 0.5) -5.91%,
+    rgba(57, 48, 74, 0.5) 111.58%
+  );
+  display: flex;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
