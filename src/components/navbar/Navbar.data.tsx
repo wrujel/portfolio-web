@@ -18,8 +18,8 @@ export const dataNavbar = [
     icon: <RiAccountPinCircleLine size="30" />,
   },
   {
-    name: "projects",
-    path: "/projects",
+    name: "Services",
+    path: "/services",
     icon: <RiServerLine size="30" />,
   },
   {
