@@ -14,7 +14,7 @@ const Avatar = () => {
       exit="hidden"
     >
       <Image
-        src="/assets/profile_image.png"
+        src="/assets/about.png"
         priority
         fill
         alt="Avatar"
