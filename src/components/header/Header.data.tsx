@@ -11,27 +11,27 @@ const YOUR_NICK_HERE = "";
 
 export const socialNetworks = [
   {
-    logo: <RiInstagramLine size="40" />,
+    logo: <RiInstagramLine size="35" />,
     src: `https://www.instagram.com/${YOUR_NICK_HERE}`,
   },
   {
-    logo: <RiYoutubeLine size="40" />,
+    logo: <RiYoutubeLine size="35" />,
     src: `https://www.youtube.com/@${YOUR_NICK_HERE}`,
   },
   {
-    logo: <RiTiktokLine size="40" />,
+    logo: <RiTiktokLine size="35" />,
     src: `https://www.tiktok.com/@${YOUR_NICK_HERE}`,
   },
   {
-    logo: <RiPinterestLine size="40" />,
+    logo: <RiPinterestLine size="35" />,
     src: `https://www.pinterest.com/${YOUR_NICK_HERE}`,
   },
   {
-    logo: <RiTwitterLine size="40" />,
+    logo: <RiTwitterLine size="35" />,
     src: `https://www.twitter.com/${YOUR_NICK_HERE}`,
   },
   {
-    logo: <RiBehanceLine size="40" />,
+    logo: <RiBehanceLine size="35" />,
     src: "#!",
   },
 ];

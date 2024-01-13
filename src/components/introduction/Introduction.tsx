@@ -17,7 +17,7 @@ const Introduction = () => {
             exit="hidden"
           >
             <Image
-              src="/assets/profile_image.png"
+              src="/assets/avatar.png"
               priority
               width="800"
               height="600"
@@ -52,7 +52,7 @@ const Introduction = () => {
                 href="/contacts"
                 className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary"
               >
-                Contacts
+                Contact
               </a>
             </div>
           </motion.div>
