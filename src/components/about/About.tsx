@@ -1,6 +1,6 @@
 "use client";
 
-import Avatar from "../avatar/Avatar";
+import Avatar from "../Avatar/Avatar";
 import { motion } from "framer-motion";
 import { motionTransitionAbout } from "@/utils/motionTransition";
 import { categories, about } from "./About.data";

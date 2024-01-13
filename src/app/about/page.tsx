@@ -1,5 +1,5 @@
-import Transition from "@/components/transition/Transition";
-import About from "@/components/about/About";
+import Transition from "@/components/Transition/Transition";
+import About from "@/components/About/About";
 
 const AboutPage = () => {
   return (

@@ -1,5 +1,5 @@
-import Cover from "@/components/cover/Cover";
-import Transition from "@/components/transition/Transition";
+import Cover from "@/components/Cover/Cover";
+import Transition from "@/components/Transition/Transition";
 
 export default function Home() {
   return (

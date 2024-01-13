@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { optionsParticles } from "./particleOptions";
-import Introduction from "../introduction/Introduction";
+import Introduction from "../Introduction/Introduction";
 
 const Cover = () => {
   const [init, setInit] = useState(false);
