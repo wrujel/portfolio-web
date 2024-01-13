@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: linear-gradient(to bottom, transparent, #212130 50%)
     rgb(var(--background-start-rgb));
+  overflow-x: hidden;
 }
 
 .text-secondary {
