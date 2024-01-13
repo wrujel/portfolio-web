@@ -3,7 +3,7 @@
 import { fadeIn } from "@/utils/motionTransition";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { socialNetworks } from "./dataHeader";
+import { socialNetworks } from "./Header.data";
 
 const Header = () => {
   return (
