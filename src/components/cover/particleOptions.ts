@@ -10,9 +10,12 @@ export const optionsParticles = {
         enable: true,
         mode: "repulse",
       },
-      resize: true,
+      resize: {
+        enable: true,
+        delay: 300,
+      },
     },
-    nodes: {
+    modes: {
       push: {
         quantity: 4,
       },
@@ -40,7 +43,7 @@ export const optionsParticles = {
       direction: undefined,
       enable: true,
       random: true,
-      speed: 1,
+      speed: 2,
       straight: false,
     },
     number: {
@@ -48,7 +51,7 @@ export const optionsParticles = {
         enable: true,
         area: 800,
       },
-      value: 80,
+      value: 150,
     },
     opacity: {
       value: 0.5,
