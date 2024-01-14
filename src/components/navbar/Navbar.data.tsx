@@ -23,8 +23,8 @@ export const dataNavbar = [
     icon: <RiServerLine size="30" />,
   },
   {
-    name: "experience",
-    path: "/experience",
+    name: "Projects",
+    path: "/projects",
     icon: <RiBriefcase2Line size="30" />,
   },
   {
