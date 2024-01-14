@@ -1,40 +1,52 @@
 import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-} from "react-icons/rx";
+  RiCodeSSlashLine,
+  RiPencilRulerLine,
+  RiSearchLine,
+  RiServerLine,
+  RiShieldCheckLine,
+  RiShoppingCartLine,
+  RiSmartphoneLine,
+} from "react-icons/ri";
 
 export const sliderData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
+    icon: <RiCodeSSlashLine />,
+    title: "Custom Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "Tailored website creation, focusing on functional and aesthetic design.",
   },
   {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    icon: <RiSmartphoneLine />,
+    title: "Responsive Design",
+    description: "Designs that adapt seamlessly to all devices and screens.",
   },
   {
-    icon: <RxDesktop />,
-    title: "Development",
+    icon: <RiShoppingCartLine />,
+    title: "E-commerce Solutions",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "Robust online store development for an optimal shopping experience.",
   },
   {
-    icon: <RxReader />,
-    title: "Copywriting",
+    icon: <RiPencilRulerLine />,
+    title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "User-centric interfaces for engaging and intuitive digital experiences.",
   },
   {
-    icon: <RxRocket />,
-    title: "SEO",
+    icon: <RiSearchLine />,
+    title: "SEO Optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "Enhance visibility and ranking with effective SEO strategies.",
+  },
+  {
+    icon: <RiServerLine />,
+    title: "Backend Development",
+    description:
+      "Reliable and efficient server-side solutions for web applications.",
+  },
+  {
+    icon: <RiShieldCheckLine />,
+    title: "Web Security",
+    description: "Advanced security measures to protect your digital assets.",
   },
 ];

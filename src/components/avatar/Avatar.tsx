@@ -8,7 +8,7 @@ const Avatar = () => {
   return (
     <motion.div
       className="bottom-0 right-0 hidden md:inline-block md:absolute w-[400px] h-[400px]"
-      variants={fadeIn("left", 0.5, 0.65)}
+      variants={fadeIn("right", 0.5, 0.65)}
       initial="hidden"
       animate="show"
       exit="hidden"

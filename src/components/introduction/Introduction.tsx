@@ -32,13 +32,14 @@ const Introduction = () => {
             exit="hidden"
           >
             <h1 className="mb-5 text-4xl leading-tight md:mb-10 font-medium">
-              If you can think it, <br />
-              <span className="text-secondary">you can code it</span>
+              Imagine it, <br />
+              <span className="text-secondary">then code it</span>
             </h1>
             <p className="max-w-sm text-xl md:max-w-2xl md:mx-0 md:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              veniam animi sit ea itaque, esse ab voluptate magnam officia
-              atque.
+              Welcome to my digital realm! As a passionate web developer, I
+              specialize in crafting innovative and responsive websites that
+              blend functionality with aesthetics to elevate your online
+              experience.
             </p>
 
             <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row mt-10">

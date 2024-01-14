@@ -25,9 +25,17 @@ const About = () => {
           <span className="text-secondary">awesome designs</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          molestiae quo architecto neque, nostrum vero a unde ex reprehenderit
-          tempora.
+          Hello! I&apos;m a passionate web developer with a flair for creating
+          elegant and efficient websites. My expertise lies in front-end
+          development, UX design, and bringing digital concepts to life with
+          clean, functional code.
+        </p>
+        <br />
+        <p>
+          Dedicated to continuous learning, I stay ahead in technology trends,
+          ensuring each project I undertake benefits from the latest
+          advancements in web development. My goal is to deliver user-centric,
+          responsive designs that make a lasting impact.
         </p>
 
         <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
