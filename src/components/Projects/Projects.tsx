@@ -56,7 +56,7 @@ const Projects = () => {
                 exit={{
                   opacity: 1,
                 }}
-                transition={{ duration: 0.15 }}
+                transition={{ duration: 0.2 }}
                 whileTap={{ scale: 0.95 }}
                 onHoverStart={() => handleClick(id)}
                 onHoverEnd={() => handleClick(id)}
@@ -65,17 +65,17 @@ const Projects = () => {
                 }}
               >
                 <div className="flex flex-col justify-end h-full">
-                  <div className="rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center px-3 pt-4 pb-5">
+                  <div className="rounded-b-[20px] bg-gray-800 bg-opacity-80 min-h-[100px] flex flex-col items-center justify-center px-3 pt-4 pb-5">
                     <h2 className="text-xl font-semibold text-center text-white">
                       {title}
                     </h2>
                     {id === index && (
                       <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
+                        initial={{ display: "none", opacity: 0, scale: 0.2 }}
+                        animate={{ display: "block", opacity: 1, scale: 0.9 }}
                         transition={{
-                          duration: 0.15,
-                          delay: 0.15,
+                          duration: 0.1,
+                          delay: 0.2,
                         }}
                       >
                         <p className="text-center">{description}</p>
