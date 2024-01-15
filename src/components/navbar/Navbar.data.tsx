@@ -28,8 +28,8 @@ export const dataNavbar = [
     icon: <RiBriefcase2Line size="30" />,
   },
   {
-    name: "contact",
-    path: "/contact",
+    name: "customers",
+    path: "/customers",
     icon: <RiChatPollLine size="30" />,
   },
 ];
