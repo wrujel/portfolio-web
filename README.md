@@ -11,7 +11,7 @@
   </a>
   <a href="/package.json">
     <img 
-      src="https://img.shields.io/badge/Version-2.0.0-blue.svg" 
+      src="https://img.shields.io/badge/Version-1.0.0-blue.svg" 
       alt="Version" 
     />
   </a>
@@ -84,7 +84,7 @@
 </div>
 <br />
 
-This a project to create a web portfolio using Next.js 14, React, TypeScript, Tailwind CSS, Framer Motion, Tsparticles, Swiper, React Icons and React countup.
+This is a project to create a web portfolio template using Next.js 14, React, TypeScript, Tailwind CSS, Framer Motion, Tsparticles, Swiper, React Icons and React countup.
 
 # Table of Contents
 
