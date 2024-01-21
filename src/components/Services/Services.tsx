@@ -11,7 +11,7 @@ const Services = () => {
     <div className="flex items-center justify-center h-screen">
       <AvatarWithTablet />
 
-      <div className="flex flex-col items-center md:flex-row gap-x-5">
+      <div className="flex flex-col items-center md:flex-row gap-x-5 mt-10 md:mt-0">
         <div className="flex flex-col text-center md:text-left md:w-[30vw] mb-10 md:mb-32">
           <motion.h1
             variants={fadeIn("up", 0.5)}

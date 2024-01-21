@@ -9,7 +9,7 @@ const Customers = () => {
   return (
     <div className="h-screen min-w-[320px]">
       <AvatarWithTablet />
-      <div className="flex flex-col justify-center min-h-screen">
+      <div className="flex flex-col justify-center min-h-screen mt-10 md:mt-0">
         <motion.h1
           variants={fadeIn("up", 0.5)}
           initial="hidden"
