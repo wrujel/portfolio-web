@@ -17,6 +17,7 @@ const AvatarWithTablet = () => {
         src="/assets/avatar_with_tablet.png"
         width={400}
         height={400}
+        priority
         alt="Avatar with tablet"
         className="h-full w-full"
       />

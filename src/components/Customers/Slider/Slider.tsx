@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Pagination } from "swiper/modules";
 import { reviewsData } from "./Slider.data";
-import Image from "next/image";
+import ImageContainer from "../../ImageContainer/ImageContainer";
 
 const Slider = () => {
   return (
@@ -23,16 +23,11 @@ const Slider = () => {
         modules={[Pagination]}
         className="h-[380px] md:h-[500px] w-[270px] md:w-[420px]"
       >
-        {reviewsData.map(({ id, name, review, image }) => {
+        {reviewsData.map(({ id, image, name, review }) => {
+          const props = { image, name };
           return (
             <SwiperSlide key={id}>
-              <Image
-                src={image}
-                alt={name}
-                width={200}
-                height={200}
-                className="mx-auto"
-              />
+              <ImageContainer {...props} />
               <h4 className="text-center">{name}</h4>
               <div className="mt-5 text-center">{review}</div>
             </SwiperSlide>
