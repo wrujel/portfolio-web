@@ -11,7 +11,7 @@ const ImageContainer = ({ image, name }: ImageProps) => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="relative w-[250px] h-[350px]">
+      <div className="relative w-[200px] h-[280px] md:w-[250px] md:h-[350px]">
         <Image
           src={image}
           alt={name}

@@ -21,7 +21,7 @@ const Slider = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="h-[380px] md:h-[500px] w-[270px] md:w-[420px]"
+        className="h-[480px] w-[310px] md:h-[500px] md:w-[420px]"
       >
         {reviewsData.map(({ id, image, name, review }) => {
           const props = { image, name };

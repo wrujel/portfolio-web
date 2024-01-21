@@ -31,11 +31,11 @@ const Introduction = () => {
             animate="show"
             exit="hidden"
           >
-            <h1 className="mb-5 text-4xl leading-tight md:mb-10 font-medium">
+            <h1 className="text-center md:text-left mb-5 text-4xl leading-tight md:mb-10 font-medium">
               Imagine it, <br />
               <span className="text-secondary">then code it</span>
             </h1>
-            <p className="max-w-sm text-xl md:max-w-2xl md:mx-0 md:text-xl">
+            <p className="text-center md:text-left max-w-sm text-xl md:max-w-2xl md:mx-0 md:text-xl">
               Welcome to my digital realm! As a passionate web developer, I
               specialize in crafting innovative and responsive websites that
               blend functionality with aesthetics to elevate your online

@@ -1,11 +1,9 @@
 "use client";
 
 import { fadeIn } from "@/utils/motionTransition";
-import AvatarWithTablet from "../Avatar/AvatarWithTablet";
 import { motion } from "framer-motion";
 import { cardContent } from "./Projects.data";
 import { useState } from "react";
-import Avatar from "../Avatar/Avatar";
 
 const Projects = () => {
   const [index, setIndex] = useState<number | null>(null);
@@ -27,7 +25,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="relative min-w-min flex flex-col justify-center gap-10 pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
+      <div className="relative min-w-min flex flex-col justify-center gap-10 pb-32 md:min-h-screen mt-36 md:mt-0 place-items-center">
         <div className="mx-4 md:mr-48 xl:mx-4">
           <motion.h1
             variants={fadeIn("left", 0.5)}
@@ -59,8 +57,15 @@ const Projects = () => {
                   }}
                   transition={{ duration: 0.2 }}
                   whileTap={{ scale: 0.95 }}
-                  onHoverStart={() => handleClick(id)}
-                  onHoverEnd={() => handleClick(id)}
+                  onHoverStart={() => {
+                    if (window.innerWidth >= 768) handleClick(id);
+                  }}
+                  onHoverEnd={() => {
+                    if (window.innerWidth >= 768) handleClick(id);
+                  }}
+                  onClick={() => {
+                    if (window.innerWidth < 768) handleClick(id);
+                  }}
                   style={{
                     backgroundImage: `url(${imageUrl})`,
                   }}

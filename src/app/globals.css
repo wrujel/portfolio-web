@@ -21,7 +21,7 @@ body {
   background: linear-gradient(to bottom, transparent, #212130 50%)
     rgb(var(--background-start-rgb));
   overflow-x: auto;
-  @media (min-width: 640px) {
+  @media (min-width: 768px) {
     overflow-y: hidden;
   }
 }

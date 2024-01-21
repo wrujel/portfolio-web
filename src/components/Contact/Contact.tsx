@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="w-full justify-center items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0 gap-6">
+    <div className="w-full justify-center items-center min-h-screen px-6 mx-auto align-middle mt-40 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0 gap-6">
       <motion.div
         variants={fadeIn("right", 0.5)}
         initial="hidden"

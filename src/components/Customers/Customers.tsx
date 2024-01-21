@@ -7,7 +7,7 @@ import Slider from "./Slider/Slider";
 
 const Customers = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen min-w-[320px]">
       <AvatarWithTablet />
       <div className="flex flex-col justify-center min-h-screen">
         <motion.h1
