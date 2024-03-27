@@ -7,7 +7,7 @@ import Image from "next/image";
 const Introduction = () => {
   return (
     <div className="bg-[#131424]/60 w-full z-10">
-      <div className="w-full h-full bg-gradient-to-r from-[#131424]/10 via-black/30 to-black/10">
+      <div className="w-full h-full ">
         <div className="container flex justify-center items-center h-full mx-auto md:grid-cols-2 md:text-left px-5 md:pl-5 md:pr-20">
           <motion.div
             className="hidden w-auto h-auto mx-auto md:block"
