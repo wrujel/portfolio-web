@@ -2,19 +2,27 @@
 
 import { fadeIn } from "@/utils/motionTransition";
 import { motion } from "framer-motion";
+import { scroll } from "framer-motion/dom";
 import { cardContent } from "./Projects.data";
 import { useState } from "react";
 
 const Projects = () => {
-  const [index, setIndex] = useState<number | null>(null);
+  const [index, setIndex] = useState<number | null>(0);
 
-  const handleClick = (id: number) => {
-    setIndex(id === index ? null : id);
+  scroll((progress) => {
+    if (window.innerWidth < 768) {
+      const state = Math.floor(progress * (cardContent.length - 1));
+      if (state !== index) setIndex(state);
+    }
+  });
+
+  const handleHover = (id: number) => {
+    if (window.innerWidth >= 768) setIndex(id);
   };
 
   const cardVariants = {
     expanded: {
-      width: "360px",
+      width: window.innerWidth < 768 ? "75svw" : "360px",
       opacity: 1,
     },
     collapsed: {
@@ -46,7 +54,7 @@ const Projects = () => {
             {cardContent.map(({ id, title, description, imageUrl, skills }) => (
               <div key={id}>
                 <motion.div
-                  className={`cursor-pointer h-[400px] md:h-[600px] lg:h-[800px] bg-cover bg-center bg-no-repeat rounded-[20px] ${
+                  className={`cursor-pointer h-[75svh] md:h-[600px] lg:h-[750px] bg-cover bg-center bg-no-repeat rounded-[20px] ${
                     index === id && "expanded"
                   } `}
                   initial={{ opacity: 1 }}
@@ -57,15 +65,7 @@ const Projects = () => {
                   }}
                   transition={{ duration: 0.2 }}
                   whileTap={{ scale: 0.95 }}
-                  onHoverStart={() => {
-                    if (window.innerWidth >= 768) handleClick(id);
-                  }}
-                  onHoverEnd={() => {
-                    if (window.innerWidth >= 768) handleClick(id);
-                  }}
-                  onClick={() => {
-                    if (window.innerWidth < 768) handleClick(id);
-                  }}
+                  onHoverStart={() => handleHover(id)}
                   style={{
                     backgroundImage: `url(${imageUrl})`,
                   }}
