@@ -9,6 +9,8 @@ import { useState } from "react";
 const Projects = () => {
   const [index, setIndex] = useState<number | null>(0);
 
+  if (typeof window === "undefined") return null;
+
   scroll((progress) => {
     if (window.innerWidth < 768) {
       const state = Math.floor(progress * (cardContent.length - 1));
