@@ -8,23 +8,33 @@ import { useState } from "react";
 
 const Projects = () => {
   const [index, setIndex] = useState<number | null>(0);
+  let width = null;
 
-  if (typeof window === "undefined") return null;
+  if (typeof window !== "undefined") {
+    width = window.innerWidth;
+  }
 
-  scroll((progress) => {
-    if (window.innerWidth < 768) {
-      const state = Math.floor(progress * (cardContent.length - 1));
-      if (state !== index) setIndex(state);
-    }
-  });
+  const isMobile = () => {
+    return width ? width < 768 : false;
+  };
+
+  if (isMobile()) {
+    scroll((progress) => {
+      if (progress < 0.2) setIndex(0);
+      else if (progress > 0.2 && progress < 0.4) setIndex(1);
+      else if (progress > 0.4 && progress < 0.6) setIndex(2);
+      else if (progress > 0.6 && progress < 0.8) setIndex(3);
+      else if (progress > 0.8) setIndex(4);
+    });
+  }
 
   const handleHover = (id: number) => {
-    if (window.innerWidth >= 768) setIndex(id);
+    if (!isMobile()) setIndex(id);
   };
 
   const cardVariants = {
     expanded: {
-      width: window.innerWidth < 768 ? "75svw" : "360px",
+      width: isMobile() ? "75svw" : "360px",
       opacity: 1,
     },
     collapsed: {
