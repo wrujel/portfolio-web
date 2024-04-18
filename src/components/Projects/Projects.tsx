@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const Projects = () => {
   const [index, setIndex] = useState<number | null>(0);
-  let width = null;
+  let width: number | null = null;
 
   if (typeof window !== "undefined") {
     width = window.innerWidth;
