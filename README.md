@@ -57,7 +57,7 @@
 - [Getting Started](#getting-started)
   - [Learn More](#learn-more)
   - [Deploy on Vercel](#deploy-on-vercel)
-- [Try it out](#try-it-out)
+- [Demo](#demo)
 
 ## Tech Stack
 
@@ -108,9 +108,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Try it out
+## Demo
 
-You can try it out
+You can try it out:
 
 [![Demo][demo]][demo-link]
 
@@ -123,12 +123,12 @@ You can try it out
 [nextjs]: https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js
 [typescript]: https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=blue
 [tailwindcss]: https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
-[react]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white
+[react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [lodash]: https://img.shields.io/badge/Lodash-gray?style=for-the-badge&logo=lodash
 [next-auth]: https://img.shields.io/badge/Next--Auth-black?style=for-the-badge&logo=next.js
 [prisma]: https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white
 [axios]: https://img.shields.io/badge/Axios-56A7F7?style=for-the-badge&logo=axios&logoColor=white
-[react-icons]: https://img.shields.io/badge/React--Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white
+[react-icons]: https://img.shields.io/badge/React--Icons-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [swr]: https://img.shields.io/badge/SWR-black?style=for-the-badge&logo=next.js
 [zustand]: https://img.shields.io/badge/Zustand-gray?style=for-the-badge&logo=npm
 [react-player]: https://img.shields.io/badge/React--Player-gray?style=for-the-badge&logo=npm
@@ -157,10 +157,18 @@ You can try it out
 [bcrypt]: https://img.shields.io/badge/Bcrypt-2A2A2A?style=for-the-badge&logo=npm&logoColor=white
 [recharts]: https://img.shields.io/badge/Recharts-61DAFB?style=for-the-badge&logo=javascript&logoColor=white
 [use-debounce]: https://img.shields.io/badge/Use--Debounce-gray?style=for-the-badge&logo=npm&logoColor=white
-[framer-motion]: https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white
-[tsparticles]: https://img.shields.io/badge/Tsparticles-000000?style=for-the-badge&logo=particles&logoColor=white
+[framer-motion]: https://img.shields.io/badge/Framer%20Motion-gray?style=for-the-badge&logo=npm&logoColor=white
+[tsparticles]: https://img.shields.io/badge/Tsparticles-gray?style=for-the-badge&logo=npm&logoColor=white
 [swiper]: https://img.shields.io/badge/Swiper-6332D2?style=for-the-badge&logo=swiper&logoColor=white
-[react-countup]: https://img.shields.io/badge/React%20Countup-61DAFB?style=for-the-badge&logo=react&logoColor=white
+[react-countup]: https://img.shields.io/badge/React%20Countup-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[cloudinary]: https://img.shields.io/badge/Cloudinary-4285F4?style=for-the-badge&logo=cloudinary&logoColor=white
+[query-string]: https://img.shields.io/badge/Query%20String-gray?style=for-the-badge&logo=npm&logoColor=white
+[react-date-range]: https://img.shields.io/badge/React%20Date%20Range-gray?style=for-the-badge&logo=npm&logoColor=white
+[react-hook-form]: https://img.shields.io/badge/React%20Hook%20Form-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-spinners]: https://img.shields.io/badge/React%20spinners-gray?style=for-the-badge&logo=npm&logoColor=white
+[world-countries-data]: https://img.shields.io/badge/World%20countries%20data-gray?style=for-the-badge&logo=npm&logoColor=white
+[react-leaflet]: https://img.shields.io/badge/React%20Leaflet-gray?style=for-the-badge&logo=npm&logoColor=white
+[react-select]: https://img.shields.io/badge/React%20Select-gray?style=for-the-badge&logo=npm&logoColor=white
 
 <!-- Badges links -->
 [nextjs-link]: https://nextjs.org/
